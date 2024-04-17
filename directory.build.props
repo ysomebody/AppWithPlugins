@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Label="Source">
+    <SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+    <OutputPathRoot>$(SolutionDir)publish\bin\$(Configuration)</OutputPathRoot>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+</Project>
